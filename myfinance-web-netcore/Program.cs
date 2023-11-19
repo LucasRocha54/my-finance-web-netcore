@@ -7,11 +7,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<MyFinanceDbContext>();
-//builder.Services.AddAutoMapper(AssemblyUtil.GetCurrentAssemblies());
 builder.Services.AddAutoMapper(typeof(PlanoContaMap));
+builder.Services.AddAutoMapper(typeof(TransacaoMap));
 
 //Services
 builder.Services.AddTransient<IPlanoContaService, PlanoContaService>();
+builder.Services.AddTransient<ITransacaoService, TransacaoService>();
 
 var app = builder.Build();
 

@@ -7,7 +7,7 @@ Projeto de trabalho da disciplina Práticas de Implementação e Evolução de S
 Nomes e cód pessoa
 
 1. Lucas Willian - 1116622
-2. 
+2. Jeiseel Rodrigues - 1471454
 3.
 
 Implementação de uma API para o cenário escolhido de tal forma que outras aplicações possam realizar operações de CRUD (Create, Read, Update, Delete) nos recursos principais e recursos associados/relacionados.
